@@ -1,0 +1,176 @@
+img {
+  border: 2px solid #2196f3;
+  border-radius: 4px;
+}
+h5 {
+  text-align: center;
+}
+.todo {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 130px;
+  margin-bottom: 10px;
+  background-color: #2196f3;
+  padding: 5px 5px;
+  color: aliceblue;
+  opacity: 0.9;
+  font-family: "Chakra Petch", sans-serif;
+}
+.bundle {
+  padding: 10px 40px 0px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 80px;
+  border: 4px solid #2196f3;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 15px;
+  background-color: white;
+  color: #379683;
+  font-family: "Chakra Petch", sans-serif;
+  opacity: 0.9;
+}
+.main {
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  padding: 10px 8px 8px 2px;
+}
+.week {
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 0 auto;
+  color: White;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bolder;
+  padding: 10px;
+}
+p {
+  color: grey;
+  background-color: cornsilk;
+  opacity: 0.8;
+  border-radius: 30px;
+  padding: 8px 20px;
+  margin-right: 25px;
+  margin-left: 10px;
+  text-align: right;
+  font-family: "Hachi Maru Pop", cursive;
+}
+
+.days {
+  padding: 10x 20px 10px;
+  margin-left: 40px;
+  text-align: center;
+  color: #05386b;
+  font-family: "Chakra Petch", sans-serif;
+}
+.button {
+  float: none;
+  margin-bottom: px;
+  height: 8px;
+}
+
+.final {
+  padding: 10px;
+  text-align: right;
+  color: #05386b;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  font-family: "Staatliches", cursive;
+  font-weight: bolder;
+  margin-right: 10px;
+  -webkit-text-stroke: 0.5px whitesmoke;
+}
+
+body {
+  background-image: url(images/sunny.jpg);
+  background-size: 300%;
+  background-attachment: fixed 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fa-sun {
+  color: #ffc107;
+  font-size: 40px;
+  padding: 10px;
+  opacity: 0.9;
+}
+.fa-cloud {
+  color: #03a9f4;
+  font-size: 40px;
+  padding: 10px;
+  opacity: 0.9;
+}
+.a {
+  font-size: 20px;
+  color: #05386b;
+  font-style: italic;
+}
+.b {
+  font-size: 15px;
+  color: #379683;
+  font-weight: bold;
+  font-family: "Architects Daughter", cursive;
+}
+.c {
+  font-size: 20px;
+  color: #03a9f4;
+}
+.d {
+  font-size: 20px;
+  color: #05386b;
+  font-family: "Architects Daughter", cursive;
+}
+form {
+  position: fixed;
+  top: 10px;
+  opacity: 0.8;
+}
+.container {
+  margin-top: 40px;
+}
+#searching {
+  color: grey;
+  font-size: 40px;
+  opacity: 0.9;
+  margin-top: 2px;
+  padding-top: 2px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+#celsius {
+  color: aliceblue;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  top: -8px;
+}
+#farenheit {
+  color: lightgrey;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  top: -8px;
+}
+#current {
+  color: whitesmoke;
+  background-color: #05386b;
+  border-radius: 4px;
+  opacity: 0.8;
+  font-size: small;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/bb77ffd242.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Hachi+Maru+Pop&family=Staatliches&display=swap"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.png">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-6">
+                
+                    <div class="row">
+                        <div class="main">
+                            <div class="col-xs-8">
+                            
+                                <form id="citySearch">
+                                    <input type="text" id="city-input" autocomplete="off" placeholder="Name a City">
+                                    <input type="submit" value="🔎">
+                                </form>
+                                <button id="current">Current Location</button>
+
+                                <h1>
+                                    <span id=searching> </span></br>
+                                   <span id="temperature">21</span><a href="#" id=celsius>ºC </a><a href="#" id="farenheit">| ºF</a><span id="description"> Sunny </span> </br><span id="date">Mon 18/01/2021</span>
+                                </h1>
+                            </div>
+                        
+                            <div class="col-xs-4"></div>
+
+                    <p id="advice">Great Weather! </br> Take your Sunglasses and have Fun!</p>
+                
+                        </div>
+                    </div>
+       
+                <div class="week">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>How 'bout Your Week?</h4>
+                        </div>
+                    </div>  
+                </div>
+
+            <div class="days">
+                <div class="row">
+                    <div class="col-2">
+                        <button type="button" class="btn btn-light"><i class="fas fa-sun"></i></br> <span id="day1"> 21</span>º <br /> <span id="weekday1"> Tue</span></button>
+                    </div>
+
+                    <div class="col-2">
+                        <button type="button" class="btn btn-light" id="B"><i class="fas fa-sun"></i></br>21º <br />Wed</button>
+                    </div>
+                                            
+                    <div class="col-2">
+                        <button type="button" class="btn btn-light" id="C"><i class="fas fa-cloud"></i></br>21º <br />Thu</button>
+                    </div>
+
+                    <div class="col-2">
+                        <button type="button" class="btn btn-light" id="D"><i class="fas fa-sun"></i></br>21º <br />Fri</button>
+                    </div>
+                    
+                    <div class="col-2">
+                             <button type="button" class="btn btn-light" id="E"><i class="fas fa-cloud"></i></br>21º <br />Sat</button>
+                    </div>
+
+                </div>
+            </div>
+            
+
+            <div class="todo">
+                <div class="row">
+                    <h6><strong>What to do? </br>Here are some ideas:</h6></strong>
+                </div>
+            </div>
+
+            <div class="bundle">
+                <div class="row">
+                    <ul>
+                        <li class="a">
+                            Photo hunt Challenge
+                        </li>
+                        <li class="b">
+                            Sample Safari on a Local Market
+                        </li>
+                        <li class="c">
+                            Go to the Beach
+                        </li>
+                        <li class="d">
+                            Barbeque with Friends
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="final">
+                <div class="row">
+                    <h2>...or Nothing, really! Just Relax</h2>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
