@@ -93,8 +93,7 @@ function howCurrentLocationTemperature (position){
 
 function showWeather(response) {
   let temp=document.querySelector("#temperature");
-  let temperature = Math.round(response.data.main.temp);
-  temp.innerHTML =  `${response.data.main.temp}`;
+  temp.innerHTML =  `${Math.round(response.data.main.temp)}`;
   let weather=document.querySelector("#description");
   weather.innerHTML=response.data.weather[0].description;
   searching.innerHTML=response.data.name;
