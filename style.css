@@ -140,10 +140,10 @@ form {
   opacity: 0.8;
 }
 .container {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 #searching {
-  color: grey;
+  color: #05386b;
   font-size: 40px;
   opacity: 0.9;
   margin-top: 2px;
@@ -151,6 +151,7 @@ form {
   font-family: "Shadows Into Light", cursive;
   font-weight: bold;
   font-size: 60px;
+  opacity: 0.9;
 }
 
 #celsius {
@@ -173,4 +174,31 @@ form {
   border-radius: 4px;
   opacity: 0.8;
   font-size: small;
+  margin-top: 6px;
+}
+footer {
+  background-color: #05386b;
+  opacity: 0.9;
+  text-align: center;
+}
+#footer {
+  color: aliceblue;
+  border-radius: 4px;
+  text-align: center;
+  font-size: small;
+  opacity: 0.8;
+  position: relative;
+}
+#citySearch {
+  margin-top: 30px;
+}
+input[type="text"] {
+  border: 2px #05386b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"] {
+  border: 2px #1560aa;
+  border-radius: 4px;
+  cursor: pointer;
 }

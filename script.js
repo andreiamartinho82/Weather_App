@@ -19,7 +19,7 @@ if (min < 10) {
   }
 
 
-  let formattedDate = `${weekDay}, ${monthDay}/${month}/${year}, ${hour}:${min}`;
+  let formattedDate = `${weekDay} ${monthDay}/${month}/${year}`;
   
 
   return formattedDate;
@@ -30,6 +30,7 @@ let currentDate = document.querySelector("#date");
 currentDate.innerHTML=formatDate();
 
 function showForecast(response){
+ 
 let daya=document.querySelector("#day1");
 daya.innerHTML=Math.round(response.data.list[0].main.temp);
 console.log(daya.innerHTML);
@@ -42,7 +43,7 @@ function showtemperature(response){
   let cityInput = document.querySelector("#city-input");
   let apiKey="282bdef694bcae4d1092be2c901364fb";
   temp.innerHTML=Math.round(response.data.main.temp);
-  weather.innerHTML=response.data.weather[0].description;
+  weather.innerHTML=` ${response.data.weather[0].description}`;
   forecastUrl=`https:api.openweathermap.org/data/2.5/forecast?q=${cityInput.value}&units=metric&appid=${apiKey}`;
   console.log(forecastUrl);
   axios.get(forecastUrl).then(showForecast);
