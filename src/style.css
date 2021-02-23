@@ -1,0 +1,257 @@
+.appWraper {
+  background-image: url(https://cdn.wallpapersafari.com/58/0/5Z1Xxs.jpg);
+  background-size: 300%;
+  background-attachment: fixed 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 600px;
+  border: 2px solid #05386b;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.winter {
+  background-image: url(https://images.unsplash.com/photo-1519414119614-31e82ec0cce7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sZCUyMHdlYXRoZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: 330%;
+  background-attachment: fixed 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 600px;
+  border: 2px solid #05386b;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.notThatBad {
+  background-image: url(https://images.pexels.com/photos/2368951/pexels-photo-2368951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: 130%;
+  background-attachment: fixed 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 600px;
+  border: 2px solid #05386b;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#form {
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  border: 2px solid #05386b;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 70%;
+  font-family: "Chakra Petch", sans-serif;
+}
+input[type="submit"] {
+  border: 2px solid #05386b;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 70%;
+}
+
+#city {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  line-height: 0.8em;
+  height: 2.5em;
+  overflow: hidden;
+  width: 210px;
+  display: flex;
+  align-items: center;
+}
+
+#advices {
+  text-align: center;
+  padding: 3px;
+  color: grey;
+  background-color: cornsilk;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-family: "Hachi Maru Pop", cursive;
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#weekForecast {
+  text-align: center;
+  padding: 5px;
+  color: White;
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: 2px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#toDo {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  background-color: #2196f3;
+  padding: 5px 5px;
+  color: aliceblue;
+  opacity: 0.9;
+  font-family: "Chakra Petch", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#ideas {
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  border: 4px solid #2196f3;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: white;
+  color: #379683;
+  font-family: "Chakra Petch", sans-serif;
+  opacity: 0.9;
+  padding: 10px;
+}
+#final {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #2196f3;
+  outline-offset: 2px;
+  opacity: 0.9;
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 10px;
+  -webkit-text-fill-color: #1f87db;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+
+#c {
+  font-size: 15px;
+  position: relative;
+  top: -8px;
+  text-decoration: none;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: "Chakra Petch", sans-serif;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  font-size: 23px;
+  padding-bottom: 2px;
+  text-transform: capitalize;
+}
+#date {
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  padding: 0;
+  text-align: right;
+  margin-right: 22px;
+  font-size: 15px;
+}
+#windSpeed,
+#precipitation {
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding: 0;
+  text-align: right;
+  margin-right: 22px;
+  font-size: 15px;
+}
+
+#temperatureStyle {
+  position: relative;
+  right: 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+#bigIcon {
+  float: auto;
+  max-width: 75px;
+  margin-right: -13px;
+  position: relative;
+  top: -2px;
+  left: 10px;
+  padding: 10px;
+  filter: brightness(0) invert(1);
+}
+#f {
+  font-size: 15px;
+  position: relative;
+  top: -8px;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.card {
+  color: grey;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 95%;
+  padding: 2px;
+}
+.card-title {
+  font-size: 16px;
+}
+
+#adA {
+  font-size: 20px;
+  color: #05386b;
+  font-style: italic;
+}
+#adB {
+  font-size: 15px;
+  color: #379683;
+  font-weight: bold;
+  font-family: "Architects Daughter", cursive;
+}
+#adC {
+  font-size: 20px;
+  color: #03a9f4;
+}
+#adD {
+  font-size: 20px;
+  color: #05386b;
+  font-family: "Architects Daughter", cursive;
+}
+
+#temperatureStyle .active {
+  color: aliceblue;
+  cursor: default;
+}
+#temperatureStyle .active:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #2196f3;
+}
+#forecast {
+  display: flex;
+  margin-left: 40px;
+}
+#forecast img {
+  filter: grayscale(100%);
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+footer {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  margin-left: 165px;
+}
+footer a {
+  color: #05386b;
+}
